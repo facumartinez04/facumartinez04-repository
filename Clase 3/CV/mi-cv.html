@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi CV</title>
+    <style>
+        table {
+            border-collapse: collapse; 
+            width: 100%; 
+        }
+        th, td {
+            border: 1px solid black; 
+            padding: 8px; 
+            text-align: left; 
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Mi CV</h1>
+    </header>
+
+    <section>
+        <h2>Foto de Perfil</h2>
+        <figure>
+            <img width="200" src="./fotocv.jpg" alt="Foto de perfil">
+            <figcaption>Foto de perfil</figcaption>
+        </figure>
+    </section>
+
+    <section>
+        <h2>Datos Personales</h2>
+        <ul>
+            <li><strong>Nombre y Apellidos:</strong> María López Torres</li>
+            <li><strong>Fecha y Lugar de Nacimiento:</strong> 10 de julio de 1995, Ciudad Falsa</li>
+            <li><strong>Dirección:</strong> Calle Falsa 456, Ciudad Falsa</li>
+            <li><strong>Teléfono:</strong> +987 654 321</li>
+            <li><strong>Correo Electrónico:</strong> maria.lopez@uai.edu.ar</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Formación Académica</h2>
+        <table style="border-collapse: collapse;">
+            <tr>
+                <th>Titulación</th>
+                <th>Años</th>
+                <th>Centro</th>
+            </tr>
+            <tr>
+                <td>Ingeniería en Sistemas</td>
+                <td>2014 - 2019</td>
+                <td>Universidad Tecnológica Nacional</td>
+            </tr>
+            <tr>
+                <td>Desarrollo Web Full Stack</td>
+                <td>2020 - 2021</td>
+                <td>Academia de Código</td>
+            </tr>
+        </table>
+    </section>
+
+    <section>
+        <h2>Experiencia Profesional</h2>
+        <ol>
+            <li>
+                <strong>Puesto:</strong> Desarrollador Junior<br>
+                <strong>Empresa:</strong> TecnoSoft<br>
+                <strong>Localidad:</strong> Ciudad Futura<br>
+                <strong>Tareas:</strong> Desarrollo de aplicaciones web, pruebas de software, colaboración en equipos ágiles.<br>
+                <strong>Fechas:</strong> Enero 2020 - Diciembre 2021
+            </li>
+            <li>
+                <strong>Puesto:</strong> Analista de Sistemas<br>
+                <strong>Empresa:</strong> Innovatech<br>
+                <strong>Localidad:</strong> Ciudad Virtual<br>
+                <strong>Tareas:</strong> Análisis de requisitos, diseño de soluciones tecnológicas, soporte técnico.<br>
+                <strong>Fechas:</strong> Febrero 2022 - Actualidad
+            </li>
+        </ol>
+    </section>
+
+    <section>
+        <h2>Idiomas</h2>
+        <ul>
+            <li>Español: Nativo</li>
+            <li>Inglés: Alto (lectura, escritura, habla)</li>
+            <li>Francés: Medio (lectura, escritura)</li>
+        </ul>
+        <p>Cursos específicos realizados: Certificación TOEFL, Curso de Francés Avanzado.</p>
+    </section>
+
+    <section>
+        <h2>Informática</h2>
+        <p>Nivel: Experto</p>
+        <ul>
+            <li>Lenguajes: Python, JavaScript, HTML, CSS</li>
+            <li>Herramientas: Git, Docker, Visual Studio Code</li>
+            <li>Frameworks: React, Node.js, Django</li>
+        </ul>
+        <p>Cursos recientes: Desarrollo de APIs con Node.js, Machine Learning con Python.</p>
+    </section>
+
+    <section>
+        <h2>Gustos y Preferencias</h2>
+        <ul>
+            <li>Libros: Ciencia ficción, desarrollo personal</li>
+            <li>Películas: Acción, ciencia ficción</li>
+            <li>Hobbies: Senderismo, fotografía, videojuegos</li>
+        </ul>
+    </section>
+
+    <section>
+        <h2>Detalles sobre Mí</h2>
+        <p>Soy una persona apasionada por la tecnología y el aprendizaje continuo. Me gusta enfrentar desafíos creativos y trabajar en equipo para desarrollar soluciones innovadoras. En mi tiempo libre, disfruto explorar nuevas tecnologías y aprender sobre tendencias emergentes en el mundo digital.</p>
+    </section>
+
+    <section>
+        <h2>Suscríbete a Mi Blog</h2>
+        <form action="/suscripcion" method="post">
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required><br><br>
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            <button type="submit">Suscribirme</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>Contacto: ejemplo@mi.uai.edu.ar | Todos los derechos reservados © 2025</p>
+    </footer>
+
+</body>
+
+</html>
