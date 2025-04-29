@@ -19,5 +19,5 @@
     color: #fff;
 }
 #pie {
-    display: none;
+    opacity: 0;
 }
