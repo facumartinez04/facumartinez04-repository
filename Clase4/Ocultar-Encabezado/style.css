@@ -18,5 +18,7 @@
     color: #fff;
 }
 #pie {
-    display: none;
+    clear: both;
+    background-color: rgb(41, 41, 113);
+    color: #fff;
 }
