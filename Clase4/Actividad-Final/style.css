@@ -1,0 +1,67 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#contenedor {
+    color: #fff;
+}
+#cabecera {
+    background-color: rgb(103, 103, 229);
+    color: #fff;
+    height: 100px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 5px;
+    background-image: url('https://media.istockphoto.com/id/931806076/es/vector/cosmic-fondo-abstracto-brillante.jpg?s=612x612&w=0&k=20&c=yW-wx56emQYF9Q5g8c6fWJ92ztwWlsrSlqqPlwtvxPI=');
+}
+
+#menu {
+    float: left;
+    width: 15%;
+    height: 30em;
+    background-color: #b2137a;
+}
+
+#menu ul li{
+    padding: 10px;
+}
+#contenido {
+    float: left;
+    width: 70%;
+    height: auto;
+    color: #000 ;
+    padding: 10px;
+}
+#pie {
+    clear: both;
+    background-color: rgb(41, 41, 113);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.markceleste{
+    background-color: aqua;
+}
+
+.markverde{
+    background-color: rgb(63, 233, 37);
+}
+
+.letraroja{
+    color: red;
+}
+
+.letranaranja{
+    color: rgb(201, 130, 0);
+}
+
+.titulo-contenido{
+    font-size: 20px;
+}
