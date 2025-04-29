@@ -1,0 +1,22 @@
+#contenedor {
+    color: #fff;
+}
+#cabecera {
+    background-color: rgb(103, 103, 229);
+    color: #fff;
+}
+
+#menu {
+    display: none;
+}
+#contenido {
+    float: left;
+    width: 85%;
+    background-color: rgb(54, 54, 160);
+    color: #fff;
+}
+#pie {
+    clear: both;
+    background-color: rgb(41, 41, 113);
+    color: #fff;
+}
