@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
+        <div class="container">
+            <a class="navbar-brand text-white fw-bold" href="#">Facundo Martinez</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#inicio">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#habilidades">Habilidades</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#proyectos">Proyectos</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#opiniones">Opiniones</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">Contacto</a>
+                    </li>
+                    <li class="nav-item">
+                        <button id="darkModeToggle" class="nav-link btn btn-link"><i class="bi bi-moon-stars-fill"></i></button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="inicio" class="py-5 mt-5">
+        <div class="container flotante">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-center mb-3 mb-md-0">
+                    <img src="img/portfolio-photo.jpg" alt="Mi foto" class="img-fluid rounded-circle " style="width: 200px !important; height: 200px !important;"  >
+                </div>
+                <div class="col-md-8">
+                    <h1>Hola, soy Facundo</h1>
+                    <h2 class="text-secondary">Desarrollador Web Junior</h2>
+                    <p class="lead">
+                        Estudiante de desarrollo web con una profunda pasión por la creación de experiencias digitales atractivas y altamente funcionales.
+                    </p>
+                    <a href="#contacto" class="btn btn-contacto">Contáctame</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="habilidades" class="py-5 bg-light target-element ">
+        <div class="container ">
+            <h2 class="text-center mb-4">Mis Habilidades</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-filetype-html text-primary" style="font-size: 3rem;"></i>
+                            <h3 class="card-title h5 mt-3">HTML</h3>
+                            <div class="progress mt-3">
+                                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100">70%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-filetype-css text-info" style="font-size: 3rem;"></i>
+                            <h3 class="card-title h5 mt-3">CSS</h3>
+                            <div class="progress mt-3">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-bootstrap text-purple" style="font-size: 3rem;"></i>
+                            <h3 class="card-title h5 mt-3">Bootstrap</h3>
+                            <div class="progress mt-3">
+                                <div class="progress-bar bg-purple" role="progressbar" style="width: 50%;" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100">50%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-filetype-sql text-success" style="font-size: 3rem;"></i>
+                            <h3 class="card-title h5 mt-3">SQL</h3>
+                            <div class="progress mt-3">
+                                <div class="progress-bar bg-success" role="progressbar" style="width: 60%;" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100">60%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-code-square text-danger" style="font-size: 3rem;"></i>
+                            <h3 class="card-title h5 mt-3">C#</h3>
+                            <div class="progress mt-3">
+                                <div class="progress-bar bg-danger" role="progressbar" style="width: 80%;" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100">80%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+    
+                <div class="col-md-6 col-lg-3 mb-4">
+                    <div class="card h-100">
+                        <div class="card-body text-center">
+                            <i class="bi bi-filetype-jsx text-info" style="font-size: 3rem;"></i>
+                            <h3 class="card-title h5 mt-3">React JS</h3>
+                            <div class="progress mt-3">
+                                <div class="progress-bar bg-info" role="progressbar" style="width: 40%;" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100">40%</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="proyectos" class="py-5">
+        <div class="container">
+            <h2 class="text-center mb-4 slide-up">Mis Proyectos</h2>
+            <div class="row">
+                <div class="col-md-6 col-lg-4 mb-4 fade-in" data-sr-delay="400">
+                    <div class="card h-100"> <div class="card-body d-flex flex-column"> <h5 class="card-title">API de Personas</h5>
+                            <p class="card-text">Desarrollo de una API RESTful para la gestión de información de personas, utilizando .NET y C# para una solución escalable.</p>
+                            <div class="mt-auto">
+                                <a href="https://github.com/facumartinez04?tab=repositories" class="btn btn-sm btn-outline-primary">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-4 mb-4 fade-in" data-sr-delay="600">
+                    <div class="card h-100"> <div class="card-body d-flex flex-column"> <h5 class="card-title">Sistema WinForm Estacionamiento</h5>
+                            <p class="card-text">Aplicación de escritorio desarrollada con .NET y C# para la gestión eficiente de estacionamientos públicos.</p>
+                            <div class="mt-auto">
+                                <a href="https://github.com/facumartinez04?tab=repositories" class="btn btn-sm btn-outline-primary">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="col-md-6 col-lg-4 mb-4 fade-in" data-sr-delay="800">
+                    <div class="card h-100"> <div class="card-body d-flex flex-column"> <h5 class="card-title">Turnos Reservas API</h5>
+                            <p class="card-text">API robusta construida con .NET y C# para la gestión de turnos y reservas, lista para integrarse.</p>
+                            <div class="mt-auto">
+                                <a href="https://github.com/facumartinez04?tab=repositories" class="btn btn-sm btn-outline-primary">Ver detalles</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="opiniones" class="py-5 mt-5 bg-light text-center">
+        <h1>Opiniones</h1>
+        <div class="container d-flex justify-content-center align-items-center ">
+            <div id="opinionesCarousel" class="carousel slide carousel-dark py-5" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <img src="img/project-images/whirlpool.webp" alt="Foto de Usuario 1" class="rounded-circle mb-3">
+                      <div class="mb-2">
+                        <span class="bi bi-star-fill text-warning"></span>
+                        <span class="bi bi-star-fill text-warning"></span>
+                        <span class="bi bi-star-fill text-warning"></span>
+                        <span class="bi bi-star-fill text-warning"></span>
+                        <span class="bi bi-star-half text-warning"></span>
+                      </div>
+                      <p class="lead px-5">"¡Excelente programador! Superó mis expectativas. Lo recomiendo totalmente."</p>
+                      <small class="text-muted">- Whirlpool</small>
+                    </div>
+                  </div>
+                    <div class="carousel-item">
+                        <div class="d-flex flex-column align-items-center text-center">
+                        <img src="img/project-images/movistar.webp" alt="Foto de Usuario 2" class="rounded-circle mb-3">
+                        <div class="mb-2">
+                            <span class="bi bi-star-fill text-warning"></span>
+                            <span class="bi bi-star-fill text-warning"></span>
+                            <span class="bi bi-star-fill text-warning"></span>
+                            <span class="bi bi-star-outline text-warning"></span>
+                            <span class="bi bi-star-outline text-warning"></span>
+                        </div>
+                        <p class="lead px-5">"Buen servicio en general. Hubo un pequeño detalle, pero lo resolvieron rápidamente."</p>
+                        <small class="text-muted">- Movistar</small>
+                        </div>
+                    </div>
+                  <div class="carousel-item">
+                    <div class="d-flex flex-column align-items-center text-center">
+                      <img src="img/project-images/style.webp" alt="Foto de Usuario 3" class="rounded-circle mb-3">
+                      <div class="mb-2">
+                        <span class="bi bi-star-fill text-warning"></span>
+                        <span class="bi bi-star-fill text-warning"></span>
+                        <span class="bi bi-star-fill text-warning"></span>
+                        <span class="bi bi-star-fill text-warning"></span>
+                        <span class="bi bi-star-fill text-warning"></span>
+                      </div>
+                      <p class="lead px-5">"¡Increíble! La calidad es impresionante y el envío fue muy rápido."</p>
+                      <small class="text-muted">- StyleStore</small>
+                    </div>
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#opinionesCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Anterior</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#opinionesCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Siguiente</span>
+                </button>
+                <div class="carousel-indicators mt-3">
+                  <button type="button" data-bs-target="#opinionesCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#opinionesCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#opinionesCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+              </div>
+              
+        </div>
+    </section>
+
+    <section id="contacto" class="py-5 bg-white">
+        <div class="container">
+            <h2 class="text-center mb-4">Contáctame</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <form>
+                        <div class="mb-3">
+                            <label for="nombre" class="form-label">Nombre</label>
+                            <input type="text" class="form-control" id="nombre" placeholder="Tu nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="tucorreo@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="mensaje" class="form-label">Mensaje</label>
+                            <textarea class="form-control" id="mensaje" rows="4" placeholder="Escribe tu mensaje aquí"></textarea>
+                        </div>
+                        <div class="text-center">
+                            <button type="submit" class="btn btn-contacto">Enviar mensaje</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white py-4">
+        <div class="container text-center">
+            <div class="mb-3">
+                <a href="https://github.com/facumartinez04" class="text-white me-3"><i class="bi bi-github"></i></a>
+                <a href="https://www.linkedin.com/in/facundo-martinez-64397523b/" class="text-white me-3"><i class="bi bi-linkedin"></i></a>
+
+            </div>
+            <p class="mb-0">© 2025   Mi Portafolio. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function() {
+            const darkModeToggle = document.getElementById('darkModeToggle');
+            const body = document.body;
+            const navbar = document.querySelector('.navbar');
+            const habilidadesSection = document.getElementById('habilidades');
+            const contactoSection = document.getElementById('contacto');
+            const cardHabilidades = document.querySelectorAll('#habilidades .card');
+            const cardProyectos = document.querySelectorAll('#proyectos .card');
+            const opinionesSection = document.getElementById('opiniones');
+            const contactoForm = document.querySelector('#contacto form');
+            const contactoInputs = contactoForm.querySelectorAll('.form-control');
+            const opinionesCarousel = document.getElementById('opinionesCarousel');
+
+            darkModeToggle.addEventListener('click', function() {
+                body.classList.toggle('dark-mode');
+                if (body.classList.contains('dark-mode')) {
+                    navbar.classList.remove('navbar-light', 'bg-light');
+                    navbar.classList.add('navbar-dark', 'bg-dark');
+                    habilidadesSection.classList.remove('bg-light');
+                    opinionesSection.classList.remove('bg-light');
+                    contactoSection.classList.remove('bg-white');
+                    cardHabilidades.forEach(card => {
+                        card.classList.add('bg-dark', 'text-white', 'border-secondary');
+                    });
+                    cardProyectos.forEach(card => {
+                        card.classList.add('bg-dark', 'text-white', 'border-secondary');
+                    });
+                    contactoInputs.forEach(input => {
+                        input.classList.add('bg-dark', 'text-white', 'border-secondary');
+                    });
+                    if (opinionesCarousel && opinionesCarousel.classList.contains('carousel-dark')) {
+                        // Keep carousel dark
+                    } else if (opinionesCarousel) {
+                        opinionesCarousel.classList.add('carousel-dark');
+                    }
+                } else {
+                    navbar.classList.remove('navbar-dark', 'bg-dark');
+                    navbar.classList.add('navbar-light', 'bg-light');
+                    habilidadesSection.classList.add('bg-light');
+                    opinionesSection.classList.add('bg-light');
+                    contactoSection.classList.add('bg-white');
+                    cardHabilidades.forEach(card => {
+                        card.classList.remove('bg-dark', 'text-white', 'border-secondary');
+                    });
+                    cardProyectos.forEach(card => {
+                        card.classList.remove('bg-dark', 'text-white', 'border-secondary');
+                    });
+                    contactoInputs.forEach(input => {
+                        input.classList.remove('bg-dark', 'text-white', 'border-secondary');
+                    });
+                    if (opinionesCarousel) {
+                        opinionesCarousel.classList.remove('carousel-dark');
+                    }
+                }
+            });
+        });
+    </script>
+</body>
+</html>

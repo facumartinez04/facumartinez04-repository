@@ -1,0 +1,277 @@
+/* styles.css */
+body {
+    padding-top: 56px;
+    background-color: #fff;
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+section {
+    padding: 60px 0;
+}
+
+.navbar {
+    background-color: #020f59 !important;
+}
+
+.flotante {
+    animation: flotar 2s ease-in-out infinite alternate;
+}
+
+@keyframes flotar {
+    0% {
+        transform: translateY(0px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.nav-item {
+    padding: 3px;
+    transition: 0.3s ease;
+}
+
+.nav-item:hover {
+    background-color: #2a41c6 !important;
+    padding: 3px;
+}
+
+.mifoto {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+}
+
+.nav-item,
+.nav-link {
+    color: #fff !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3e%3cpath stroke='%23fff' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+.btn-contacto {
+    background-color: #020f59;
+    color: #fff;
+    transition: 0.3s;
+}
+
+.btn-contacto:hover {
+    background-color: #182ea5;
+    color: #fff;
+    transform: scale(1.05);
+}
+
+.bg-purple {
+    background-color: #6f42c1;
+}
+
+.text-purple {
+    color: #6f42c1;
+}
+
+#inicio {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+}
+
+.card {
+    transition: transform 0.3s ease;
+    background-color: #fff;
+    color: #333;
+    border: 1px solid rgba(0, 0, 0, 0.125);
+}
+
+footer {
+    background-color: #020f59 !important;
+}
+
+.card:hover {
+    transform: scale(0.95)
+}
+
+#opinionesCarousel {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.carousel-item {
+    padding: 30px;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    width: 5%;
+}
+
+.carousel-indicators {
+    bottom: 10px;
+}
+
+.carousel-indicators button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: 0;
+    opacity: 0.5;
+    background-color: #000;
+}
+
+.carousel-indicators .active {
+    opacity: 1;
+}
+
+.rounded-circle {
+    width: 80px;
+    height: 80px;
+    object-fit: cover;
+}
+
+.bi-star-fill,
+.bi-star-half {
+    font-size: 1.2rem;
+    margin-right: 2px;
+    color: #ffc107;
+}
+
+.bi-star-outline {
+    font-size: 1.2rem;
+    margin-right: 2px;
+    color: #ccc;
+}
+
+.lead {
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.text-muted {
+    font-size: 0.9rem;
+    color: #6c757d !important;
+}
+
+#habilidades {
+    background-color: #f8f9fa;
+}
+
+#contacto {
+    background-color: #fff;
+}
+
+.form-control {
+    background-color: #fff;
+    color: #495057;
+    border: 1px solid #ced4da;
+}
+
+.form-control::placeholder {
+    color: #6c757d;
+}
+
+@media (max-width: 768px) {
+    #inicio {
+        min-height: auto;
+        padding-top: 2rem;
+    }
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+    background-color: #1a1a1a !important;
+    color: #f8f9fa !important;
+}
+
+.dark-mode .navbar {
+    background-color: #343a40 !important;
+}
+
+.dark-mode .navbar-brand {
+    color: #fff !important;
+}
+
+.dark-mode .nav-link {
+    color: #fff !important;
+}
+
+.dark-mode .nav-link:hover {
+    color: #cccccc !important;
+}
+
+.dark-mode .btn-contacto {
+    background-color: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.dark-mode .btn-contacto:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.dark-mode #habilidades {
+    background-color: #212529 !important;
+}
+
+.dark-mode #contacto {
+    background-color: #343a40 !important;
+}
+
+.dark-mode .card {
+    background-color: #343a40 !important;
+    color: #fff !important;
+    border: 1px solid #6c757d !important;
+}
+
+.dark-mode .card-title {
+    color: #fff !important;
+}
+
+.dark-mode .card-text {
+    color: #cccccc !important;
+}
+
+.dark-mode .btn-outline-primary {
+    color: #007bff !important;
+    border-color: #007bff !important;
+}
+
+.dark-mode .btn-outline-primary:hover {
+    background-color: #007bff !important;
+    color: #fff !important;
+    border-color: #007bff !important;
+}
+
+.dark-mode footer {
+    background-color: #343a40 !important;
+}
+
+.dark-mode .carousel-dark .carousel-control-prev-icon,
+.dark-mode .carousel-dark .carousel-control-next-icon {
+    filter: invert(100%);
+}
+
+.dark-mode .form-control {
+    background-color: #495057 !important;
+    color: #fff !important;
+    border-color: #6c757d !important;
+}
+
+.dark-mode .form-control::placeholder {
+    color: #cccccc !important;
+}
+
+.dark-mode .text-muted {
+    color: #adb5bd !important;
+}
+
+.dark-mode .carousel-indicators button {
+    background-color: #fff;
+}
+
+.dark-mode .bi-star-fill,
+.dark-mode .bi-star-half {
+    color: #ffc107;
+}
