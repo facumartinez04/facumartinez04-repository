@@ -1,7 +1,7 @@
-@import url('./main.css');
-@import url('./header.css');
-@import url('./sidebar.css');
-@import url('./footer.css');
+@import  "./main.css";
+@import "./header.css";
+@import "./sidebar.css";
+@import "./footer.css";
 
 * {
     box-sizing: border-box;
